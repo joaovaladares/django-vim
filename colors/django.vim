@@ -20,8 +20,8 @@ let colors_name = "django"
 " Default Colors
 hi Normal       guifg=#f8f8f8   guibg=#0b2f20
 hi NonText      guifg=#0b2f20   guibg=#1a3c2f
-hi Cursor       guibg=#336242
-hi lCursor      guibg=#336242
+hi Cursor       guifg=#f8f8f8   guibg=#336442
+hi lCursor       guifg=#f8f8f8   guibg=#336442
 
 " Search
 hi Search	    guibg=peru      guifg=wheat
@@ -44,11 +44,11 @@ hi String       guifg=#87bb9e
 hi Constant     guifg=#87bb9e
 
 " Syntax
-hi Number       guifg=#387258   gui=bold
+hi Number       guifg=white   gui=bold
 hi Statement    guifg=#f2e862   gui=bold
 hi Function     guifg=#fec756
 hi PreProc      guifg=#aa5507   gui=bold
-hi Comment      guifg=#245032   gui=italic
+hi Comment      guifg=#73da70   gui=italic
 hi Type         guifg=#96dd3b   gui=bold
 
 " Diff
