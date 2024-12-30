@@ -1,13 +1,3 @@
-"
-" Django Color Scheme
-" ===================
-"
-" conversion of the textmate django colorscheme from the django
-" trac.
-"
-" Author:    Armin Ronacher <armin.ronacher@active-4.com>
-" Version:   0.1
-"
 set background=dark
 
 hi clear
@@ -44,7 +34,7 @@ hi String       guifg=#87bb9e
 hi Constant     guifg=#87bb9e
 
 " Syntax
-hi Number       guifg=white   gui=bold
+hi Number       guifg=white
 hi Statement    guifg=#f2e862   gui=bold
 hi Function     guifg=#fec756
 hi PreProc      guifg=#aa5507   gui=bold
