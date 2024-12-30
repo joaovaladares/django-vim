@@ -34,7 +34,7 @@ hi String       guifg=#87bb9e
 hi Constant     guifg=#87bb9e
 
 " Syntax
-hi Number       guifg=white
+hi Number       guifg=white     gui=italic
 hi Statement    guifg=#f2e862   gui=bold
 hi Function     guifg=#fec756
 hi PreProc      guifg=#aa5507   gui=bold
